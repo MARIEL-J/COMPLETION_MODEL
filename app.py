@@ -104,6 +104,3 @@ if st.session_state.get("auto_complete") and st.session_state["user_input"]:
     finally:
         st.session_state["auto_complete"] = False  # Réinitialiser
 
-# Pied de page
-st.markdown("---")
-st.markdown("💼 Développé par **TonNom** • 🔗 [Voir sur GitHub](https://github.com/ton-projet) • 📬 Contact : [email@email.com](mailto:email@email.com)")

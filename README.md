@@ -105,11 +105,4 @@ Exemple de reformulation :
 
 ## 📦 Modèle utilisé
 
-- Flan-T5 ou T5, adapté au style administratif.
 - Architecture seq2seq avec attention.
-- Possibilité de fine-tuning sur données locales. 
-
-
-## 📜 Licence
-
-Ce projet est sous licence MIT.
