@@ -5,6 +5,12 @@ from src.preprocess import tokenize, build_vocab, encode, decode, prepare_input,
 from src.model import Seq2SeqModel
 from src.infer import generate_response
 
+st.set_page_config(
+    page_title="🔮 Complétion de phrases administratives",
+    page_icon="ise.png",  # Chemin relatif vers l’image
+    layout="centered"
+)
+
 # Chargement des données pour suggestions dynamiques
 with open("data/prompts_completions.jsonl", "r", encoding="utf-8") as f:
     prompts_data = [json.loads(line)["prompt"] for line in f]
