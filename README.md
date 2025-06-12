@@ -1,6 +1,6 @@
 # 📄 COMPLETION_MODEL_PROJET
 
-Un projet complet de génération de complétions textuelles administratives à l’aide d’un modèle **seq2seq** personnalisé (basé sur Flan-T5 ou similaire). Il inclut la préparation des données, l’entraînement du modèle, l’inférence, et une application d’interface utilisateur simple  codé avec le framework streamlit.
+Un projet complet de génération de complétions textuelles administratives à l’aide d’un modèle **seq2seq** personnalisé. Il inclut la préparation des données, l’entraînement du modèle, l’inférence, et une application d’interface utilisateur simple  codé avec le framework streamlit.
 
 ## 🚀 Objectif
 
@@ -106,3 +106,7 @@ Exemple de reformulation :
 ## 📦 Modèle utilisé
 
 - Architecture seq2seq avec attention.
+
+## 📦 Extension
+
+Il s'agit ici d'un projet académique visant l'apprentissage et l'utilisation pratique des techniques et méthodes apprises lors du module de cours Machine Learning 2. Ce projet se veut évolutif. Pour plus de précision, un modèle d'IA pourrait être intégré.
